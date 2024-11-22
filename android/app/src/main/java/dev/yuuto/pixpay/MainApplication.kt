@@ -1,4 +1,4 @@
-package com.pixpayrn
+package dev.yuuto.pixpay
 
 import android.app.Application
 import com.facebook.react.PackageList
