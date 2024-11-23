@@ -14,7 +14,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'pixpayrn' do
+target 'Pixpay' do
   config = use_native_modules!
 
   use_react_native!(
@@ -23,7 +23,7 @@ target 'pixpayrn' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'pixpayrnTests' do
+  target 'PixpayTests' do
     inherit! :complete
     # Pods for testing
   end
